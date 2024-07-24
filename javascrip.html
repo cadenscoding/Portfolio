@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.6.0/css/all.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="top">
+        <header>
+          <img src="img/logo.png" class="logo-img">
+          <h2>Caden Foley</h2>
+          <nav>
+          <ul class="nav">
+            <li class="navlink"><a href="#">Projects</a></li>
+            <li class="navlink"><a href="about.html">About</a></li>
+            <li class="navlink"><a href="index.html">Home</a></li>
+            <li class="navlink"><a href="contact.html">Contact</a></li>
+            <li class="navlink"><a href="resume.html">Resume</a></li>
+            <li><a href="https://github.com/cadenscoding" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/caden-foley/" target="_blank"><i class="fa-brands fa-linkedin"></a></i></li>
+          </ul>
+          <button class="burger">
+            <i class="fa fa-bars"></i>
+          </button>
+          </nav>
+        </header>
+      </div>
+      <div class="fancy-border">
+        <div class="button-display">
+        <button onclick="madlibShow()" id="madlib-button" class="question-button">Make a MadLib!</button>
+        </div>
+      <section class="madlibs-js">
+       
+     
+          <!-- <h4>Make a MadLib!</h4> -->
+          <form id="madlib-form">
+            <label for="adjective1">Adjective:</label> <input type="text" id="adjective1" name="adjective1" class="makemadlib">
+          <br>
+         
+            <label for="noun1">Noun:</label> <input type="text" id="noun1" name="noun1" class="makemadlib">
+          <br>
+            <label for="animal">Animal:</label> <input type="text" id="animal" name="animal" class="makemadlib">
+          <br>
+            <label for="verb1">Verb:</label> <input type="text" id="verb1" name="verb1" class="makemadlib">
+          <br>
+            <label for="noun2">Noun:</label> <input type="text" id="noun2" name="noun2" class="makemadlib">
+          <br>
+            <label for="verb2">Verb:</label> <input type="text" id="verb2" name="verb2" class="makemadlib">
+          <br>
+            <label for="adjective2">Adjective:</label> <input type="text" id="adjective2" name="adjective2" class="makemadlib">
+          <br>
+            <label for="verbing">Verb-ING:</label> <input type="text" id="verbing" name="verbing" class="makemadlib">
+          <br>
+            <label for="noun3">Noun:</label> <input type="text" id="noun3" name="noun3" class="makemadlib">
+          <br>
+        <input type="submit" value="submit" class="submit-button">
+        </form>
+      
+      </section>
+        </div>
+      <section class="madlib-display">
+      </section>
+      <section class="color-change">
+        <form id="colorForm">
+               <label for="bgcolor">Enter Color For Surprise</label>
+          <br>
+         <input id="color" type="text" />
+         <br/>
+         <input id="submitColor" value="Submit" type="button" />
+          </form>
+               </section>
+       
+      <footer>
+        <div class="fancy-border-two">
+          <h4>Caden Foley, Jr. Developer</h4>
+          <i class="fa-brands fa-github"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <p>2024 Caden Foley. All Rights Reserved</p>
+      </footer>
+           </div>
+           <script type="module" src="javascript/script.js"></script>
+           <script src="javascript/madlib.js"></script>
+</body>
+</html>
