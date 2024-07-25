@@ -35,6 +35,9 @@ li {
   padding: 0.25rem;
   list-style-type: none;
 }
+li:hover{
+  transform: scale(1.2);
+}
 
 h2 {
   margin: 3rem;
@@ -70,6 +73,10 @@ h2 {
 
 .top {
   background: #8da685;
+}
+
+a:hover{
+  transform: scale(1.2);
 }
 
 p{font-size:large;}
@@ -231,6 +238,9 @@ padding-bottom:1rem;
   textarea{width:100%;} 
   .submit-button {padding:.75rem;
   text-align:center;}
+  .submit-button:hover{
+    transform: scale(1.2);
+  }
   .submit-form {background:#8DA685;
   color:black;
   border-radius:.25rem;
@@ -255,7 +265,9 @@ padding-bottom:1rem;
   background:#83a18b;
   font-size: larger;
 }
-
+.question-button:hover{
+  transform: scale(1.2);
+}
 
 
 .makemadlib{margin-bottom:1rem;
